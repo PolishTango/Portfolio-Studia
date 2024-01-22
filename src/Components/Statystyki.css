@@ -1,0 +1,21 @@
+.glowne{
+    padding: 6%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    min-height: 500px;
+    min-width: 500px;
+    display: flex;
+}
+.stopka ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0.7%;
+}

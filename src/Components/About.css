@@ -1,0 +1,55 @@
+.About{
+    color: #000000;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    min-height: 800px;
+    padding-top: 2rem;
+}
+
+    .About .Container {
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-wrap: wrap;
+        padding: 1rem;
+        text-align: center;
+        justify-items: center;
+        align-content: center;
+    }
+.Column{
+        width: calc(33.3333% - 20px); /* Adjust the width and margin as needed */
+        margin: 10px;
+        box-sizing: border-box;
+        
+      }
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1.5s;
+}
+.show{
+  opacity: 1;  
+  filter: blur(0);
+  transform: translateX(0);
+}
+h4{
+    color: black;
+}
+.vertical-line0, .vertical-line1, .vertical-line2 {
+    height: 3px; 
+    width: 60vh;
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+.vertical-line0{
+background-color: rgb(109, 21, 224); /* Kolor linii */
+    }
+.vertical-line1{
+    background-color: rgb(21, 224, 35); /* Kolor linii */
+    }
+.vertical-line2{
+    background-color: rgb(136, 224, 21); /* Kolor linii */
+    }

@@ -1,0 +1,35 @@
+/* Header.css */
+.Header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.NavBar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(201, 121, 121, 0.8); /* Initial alpha value for transparency */
+    z-index: 100; /* Ensure the navbar is on top of other elements */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    color: white;
+}
+
+.NavBar.scrolled {
+    background-color: rgba(73, 181, 227, 0.5); /* Adjusted alpha value for transparency */
+    
+}
+.NavBar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0.7%;
+}
+.NavBar li {
+    margin-right: 15px;
+    cursor: pointer;
+}

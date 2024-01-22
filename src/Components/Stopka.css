@@ -1,0 +1,28 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/google.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/instagram.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css');
+.stopka {
+  position:relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Initial alpha value for transparency */
+  color: white;
+  text-align: center;
+}
+.stopka ul {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.stopka li {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+.stopka a {
+  text-decoration: none;
+  color: white;
+}
