@@ -9,19 +9,19 @@ const About = () => {
             <div className='Container'>
                 <div className='Column'>
                     <section className="hidden">
-                        <h1>Wykształcenie:</h1>
+                        <h1>Education:</h1>
                         <h4>09.2016 – 04.2020</h4>
-                        <h3>Zespół Szkół Zawodowych nr 3 Ostrołęka</h3>
+                        <h3>Vocational School Complex No. 3 in Ostrołęka</h3>
                         <h4>09.2021 – 31.01.2025</h4>
-                        <h3>Uczelnia WSB Merito - Front End Developer</h3>
+                        <h3>WSB Merito University - Front End Developer</h3>
                         <div class="vertical-line0"></div>
                     </section>
                 </div>
                 <div className='Column'>
                     <section className="hidden">
-                        <h1>Doświadczenie:</h1>
+                        <h1>Experience:</h1>
                         <h4>2020-2021</h4>
-                        <h3>Specjalista ds.realizacji</h3>
+                        <h3>Implementation Specialist</h3>
                         <h4>2022-2023</h4>
                         <h3>QA Tester</h3>
                         <div class="vertical-line1"></div>
@@ -30,10 +30,10 @@ const About = () => {
                 </div>
                 <div className='Column'>
                     <section className="hidden">
-                        <h1>Szkolenia:</h1>
-                        <h3>Certyfikat "Umiejętności organizowania pracy, projektowania i przyjmowania odpowiedzialności za jej wyniki"</h3>
-                        <h3>Kurs angielskiego -100h poziom Średniozaawansowany wyższy"</h3>
-                        <h3>Certyfikat "tworzenie aplikacji dla systemu android"</h3>
+                        <h1>Certificates:</h1>
+                        <h3>Skills in organizing work, designing, and taking responsibility for its results"</h3>
+                        <h3>100-hour English Course - Upper Intermediate Level"</h3>
+                        <h3>Certificate in "Creating applications for the Android system"</h3>
                         <div class="vertical-line2"></div>
 
                     </section>

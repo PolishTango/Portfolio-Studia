@@ -7,31 +7,32 @@ function Statystyki() {
   const data = [
     { name: 'HTML', users: 5 },
     { name: 'CSS', users: 4 },
-    { name: 'JavaScript', users: 2 },
+    { name: 'JS', users: 2 },
     { name: 'React', users: 3 },
     { name: 'Premiere Pro', users: 8 },
     { name: 'After Effects', users: 5 },
-    { name: 'Source Filmmaker', users: 2 },
+    { name: 'Illustrator', users: 5 },
+    { name: 'Photoshop', users: 5 },
   ];
 
-  const colors = ['#ADD8E6', '#33FF57', '#5733FF', '#E63244', '#F75E25', '#FFFF00', '#1616FF'];
+  const colors = ['#33FF57', '#E63244', '#5733FF', '#ADD8E6', '#F75E25', '#FFFF00', '#f8a829','#83caff   '];
 
   return (
     <div id="glowne" className='glowne'>
-      <div style={{ textAlign: 'center' }}>
+      <div className='glowne2' style={{ textAlign: 'center' }}>
         <Animacja2 />
         <section className="hidden2">
-          <h1>Wykres umiejętności</h1>
+          <h1>Skills chart</h1>
         </section>
 
         <div className='Wykres'>
           <section className="hidden2">
-            <PieChart width={1200} height={700}>
+            <PieChart width={window.innerWidth > 1200 ? 1200 : window.innerWidth - 20} height={window.innerHeight * 0.8}>
               <Pie
                 dataKey='users'
                 isAnimationActive={true}
                 data={data}
-                outerRadius={280}
+                outerRadius={window.innerWidth > 1200 ? 280 : window.innerWidth * 0.20}
                 label={({ name }) => name} 
                 labelLine={false} 
               >

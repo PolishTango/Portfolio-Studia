@@ -44,12 +44,42 @@ h4{
     left: 50%; 
     transform: translateX(-50%);
 }
-.vertical-line0{
-background-color: rgb(109, 21, 224); /* Kolor linii */
+.vertical-line0, .vertical-line1, .vertical-line2 {
+    height: 3px; 
+    width: 40vw; /* Change width to viewport width units */
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+.vertical-line0 {
+    background-color: rgb(109, 21, 224);
+}
+
+.vertical-line1 {
+    background-color: rgb(21, 224, 35);
+}
+
+.vertical-line2 {
+    background-color: rgb(136, 224, 21);
+}
+
+@media only screen and (max-width: 768px) {
+    .Column {
+        width: calc(50% - 20px);
     }
-.vertical-line1{
-    background-color: rgb(21, 224, 35); /* Kolor linii */
+    
+    .vertical-line0, .vertical-line1, .vertical-line2 {
+        width: 80vw; /* Adjust width for tablet screens */
     }
-.vertical-line2{
-    background-color: rgb(136, 224, 21); /* Kolor linii */
+}
+
+@media only screen and (max-width: 480px) {
+    .Column {
+        width: calc(100% - 20px);
     }
+    
+    .vertical-line0, .vertical-line1, .vertical-line2 {
+        width: 90vw; /* Adjust width for mobile screens */
+    }
+}

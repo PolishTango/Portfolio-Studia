@@ -8,24 +8,15 @@ const Portfollio = () => {
         <div className='Portfollio'>
                  <Animacja2 />
              <section className="hidden2">          
-                <h1 className='napis'>Moim hobby jest montaż filmów </h1>
+                <h1 className='napis'>My greatest passion lies in the art of film editing </h1>
             </section>
             <div className='Container'>
                 <div className='Column'>    <section className="hidden2">
-                <iframe width="500" height="500" className='filmik' src="https://www.youtube.com/embed/ZaUm-mSbS6c" title="Coldzera vs Liquid (Cs:Go Montage)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </section>
-                </div>
-                <div className='Column'> <section className="hidden2">
-                <iframe width="500" height="500" className='filmik2' src="https://www.youtube.com/embed/g3PaUbSyXX8" title="2022 10 19 23 51 07 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </section>
-                </div>
-                <div className='Column'> <section className="hidden2">
-                <iframe width="500" height="500" className='filmik3' src="https://www.youtube.com/embed/IuPkujRDyBQ" title="Minecraft KiK zapowiedz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </section>
+                <iframe className='filmik' src="https://www.youtube.com/embed/m4CYOzaIU2s" title="Portfolio Final Version" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                </section>
                 </div>
             </div>
             <section className="hidden2">  
-            <h1 className='napis'>Oto kilka przykładów mojej pracy</h1>
+            <h1 className='napis'>Hope You like it :) </h1>
             </section>
         </div>
          </div>

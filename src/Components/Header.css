@@ -1,23 +1,25 @@
 /* Header.css */
+
 .Header {
     width: 100%;
     margin: 0;
     padding: 0;
 }
+
 .NavBar {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(201, 121, 121, 0.8); /* Initial alpha value for transparency */
-    z-index: 100; /* Ensure the navbar is on top of other elements */
-    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    background-color: rgba(201, 121, 121, 0.8);
+    z-index: 100;
+    transition: background-color 0.3s ease;
     color: white;
 }
 
 .NavBar.scrolled {
-    background-color: rgba(73, 181, 227, 0.5); /* Adjusted alpha value for transparency */
-    
+    background-color: rgba(73, 181, 227, 0.5);
 }
+
 .NavBar ul {
     display: flex;
     flex-direction: row;
@@ -29,7 +31,32 @@
     margin: 0;
     padding: 0.7%;
 }
+
 .NavBar li {
     margin-right: 15px;
     cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .NavBar ul {
+        flex-direction: row; /* Revert to horizontal layout for larger screens */
+        justify-content: space-between; /* Space out items evenly */
+        font-size: 20px; /* Revert to original font size */
+        padding: 5px;
+        align-items: center;
+        margin: auto; /* Center the text horizontally */
+
+    }
+
+    .NavBar {
+        max-height: none; /* Remove the max-height on larger screens */
+        overflow: visible; /* Allow content to be visible */
+        position: static; /* Change to static position for mobile phones */
+
+    }
+
+    .NavBar li {
+        margin-bottom: 0; /* Revert to original spacing between items */
+    }
 }

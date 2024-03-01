@@ -1,12 +1,12 @@
 @import url('https://unpkg.com/css.gg@2.0.0/icons/css/google.css');
 @import url('https://unpkg.com/css.gg@2.0.0/icons/css/instagram.css');
-@import url('https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/mail-open.css');
 .stopka {
-  position:relative;
+  position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.6); /* Initial alpha value for transparency */
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
   text-align: center;
 }
@@ -28,6 +28,8 @@
 }
 @media only screen and (max-width: 600px) {
   .stopka {
-    width: 100%;
+    padding-top: 5px;
+    margin: auto;
+    text-align: center; /* Center align the icons */
   }
 }
